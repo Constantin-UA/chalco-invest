@@ -1,0 +1,175 @@
+:root {
+	--neon-main-color: #00b8d8;
+	--black-grafic-color: #161727;
+	--black-1-bg-color: #152028;
+	--black-2-bg-color: #23323c;
+	--black-3-bg-color: #3a4956;
+	--text-1-color: #818ea3;
+	--table-text-color: #13b5e0;
+	--main-text-color: #13b5e0;
+	--color-red: #ea3943;
+	--color-green: #17c671;
+	--box-shadow-small: var(--neon-main-color) 0px 5px 15px;
+	--box-shadow-big: var(--neon-main-color) 0px 1px 2px 0px, var(--neon-main-color) 0px 2px 6px 2px;
+}
+body {
+	transition: all 0.5s ease;
+	color: var(--main-text-color) !important;
+}
+.custom__text {
+	color: var(--neon-main-color) !important;
+	text-shadow: 0px 0px 10px var(--neon-main-color) !important;
+}
+.text-gray-600 {
+	color: var(--neon-main-color) !important;
+	text-shadow: 0px 0px 10px var(--neon-main-color) !important;
+	font-size: 100% !important;
+}
+
+.text-success {
+	color: var(--neon-main-color) !important;
+	text-shadow: 0px 0px 10px var(--neon-main-color) !important;
+}
+
+#user_img_profile {
+	box-shadow: 0px 0px 10px var(--neon-main-color);
+}
+.topbar-divider {
+	border-right: 1px solid var(--neon-main-color) !important;
+}
+/* Sidebar */
+.nav-link {
+	color: var(--neon-main-color);
+	text-shadow: 0px 0px 10px var(--neon-main-color);
+}
+.sidebar-dark hr.sidebar-divider {
+	border-top: 1px solid var(--neon-main-color);
+	box-shadow: 0px 0px 10px var(--neon-main-color);
+}
+.collapse-item {
+	color: var(--neon-main-color) !important;
+	text-shadow: 0px 0px 10px var(--neon-main-color);
+}
+
+/* Background  */
+
+.navbar-light,
+.bg-white,
+.bg-light {
+	background-color: var(--black-1-bg-color) !important;
+	background-image: linear-gradient(
+		180deg,
+		var(--black-1-bg-color) 10%,
+		var(--black-2-bg-color) 100%
+	);
+}
+.bg-light {
+	border: none;
+	box-shadow: var(--box-shadow-big);
+	margin-bottom: 1rem;
+}
+.sticky-footer,
+.bg-gradient-primary {
+	background-color: var(--black-1-bg-color) !important;
+	background-image: var(--black-1-bg-color);
+}
+/* Main wrapper */
+.wrapper-bg {
+	background-color: var(--black-2-bg-color) !important;
+}
+.bg-dropDown {
+	background-color: var(--black-2-bg-color) !important;
+}
+.collapse-item:hover {
+	background-color: var(--black-3-bg-color) !important;
+}
+
+.card {
+	background-color: var(--black-grafic-color); /*	--black-2-bg-color  */
+	border: 1px solid var(--neon-main-color);
+	box-shadow: var(--box-shadow-big) !important;
+}
+.card-header {
+	background-color: var(--black-2-bg-color);
+	border-bottom: 1px solid var(--neon-main-color);
+}
+.nav-tabs .nav-link {
+	border-bottom: none !important;
+	border-top: 1px solid var(--neon-main-color) !important;
+	border-left: 1px solid var(--neon-main-color) !important;
+	border-right: 1px solid var(--neon-main-color) !important;
+	color: var(--main-text-color) !important;
+	background-color: var(--black-2-bg-color) !important;
+}
+.nav-tabs {
+	border-bottom: 1px solid var(--neon-main-color);
+}
+.form-control {
+	background-color: var(--black-3-bg-color) !important;
+	color: var(--main-text-color);
+}
+.form-control:focus {
+	color: var(--table-text-color) !important;
+}
+.table {
+	color: var(--table-text-color) !important;
+}
+select {
+	color: var(--main-text-color);
+}
+.border-bottom {
+	border-bottom: 1px solid var(--neon-main-color) !important;
+}
+.border {
+	border: 1px solid var(--black-1-bg-color) !important;
+}
+.btn-primary {
+	background-color: var(--main-text-color);
+	border-color: var(--neon-main-color);
+	font-size: 1rem !important;
+}
+.btn-primary:hover {
+	background-color: var(--color-green);
+	box-shadow: var(--box-shadow-big);
+}
+@media (min-width: 800px) {
+	.btn-primary {
+		font-size: 0.8rem !important;
+	}
+}
+.btn-success {
+	color: #c5f1fd;
+	background-color: var(--color-green);
+	border-color: var(--color-green);
+	border-radius: 4px;
+}
+.btn-danger {
+	color: #c5f1fd;
+	background-color: var(--color-red);
+	border-color: var(--color-red);
+	border-radius: 4px;
+}
+.modal-content {
+	background-color: var(--black-3-bg-color);
+}
+.modal-header {
+	background-image: linear-gradient(
+		180deg,
+		var(--black-1-bg-color) 10%,
+		var(--black-2-bg-color) 100%
+	);
+}
+a.text-success:hover,
+a.text-success:focus {
+	color: var(--main-text-color) !important;
+}
+
+label.radio-card .card-content-wrapper {
+	background: var(--main-text-color);
+	border-radius: 4px;
+	box-shadow: 0 2px 4px 0 var(--neon-main-color);
+}
+.badge-primary {
+	color: var(--color-green) !important;
+	background-color: transparent !important;
+}
