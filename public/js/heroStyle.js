@@ -6,4 +6,14 @@
 
 	const mainHeader = document.querySelector('div#app > .header');
 	mainHeader.classList.remove('header__light');
+
+	const priceContainer = document.querySelector('div.wrapper > .section__price > .container');
+	const priceList = document.querySelector(
+		'div.wrapper > .section__price > .container > .price__list'
+	);
+	const priceTitle = document.createElement('div');
+	priceTitle.classList.add('sectitle');
+	priceTitle.style = 'text-align: center';
+	priceTitle.textContent = 'Предложения';
+	priceContainer.insertBefore(priceTitle, priceList);
 })();

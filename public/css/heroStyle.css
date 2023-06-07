@@ -67,7 +67,52 @@
 
 .sectitle {
 	color: var(--main-text-color) !important;
+	margin: 1rem;
 }
 .sectitle__bot {
 	color: #fff;
+}
+.orice__item {
+	background: radial-gradient(113.88% 81.65% at 50% 100%, #3b4b8d 0%, var(--black-2-bg-color) 100%);
+}
+.tocen__coll .token__url {
+	box-shadow: var(--neon-main-color) 0px 5px 15px;
+}
+
+.token__content {
+	border-radius: 8px;
+	/*	display: flex;
+	flex-direction: column;
+	row-gap: 16px !important; */
+}
+
+/* .token__scroll {
+	padding-bottom: 0;
+} */
+
+.reviews__item {
+	box-shadow: var(--box-shadow-small);
+}
+.cert__img > img {
+	box-shadow: var(--box-shadow-small);
+}
+.button {
+	background-color: var(--main-text-color) !important;
+}
+.partnears__item {
+	box-shadow: var(--box-shadow-small);
+}
+.start__bg {
+	background-color: var(--black-1-bg-color) !important;
+	box-shadow: var(--neon-main-color) 0px 5px 15px;
+}
+.start__bg::before {
+	background-color: var(--black-1-bg-color) !important;
+}
+.start__item {
+	background: radial-gradient(
+		113.88% 81.65% at 50% 100%,
+		#3b4b8d 0%,
+		var(--black-2-bg-color) 100%
+	) !important;
 }
