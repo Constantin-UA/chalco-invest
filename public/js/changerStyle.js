@@ -1,8 +1,8 @@
 (() => {
-	const styleNews = document.createElement('link');
+	/* 	const styleNews = document.createElement('link');
 	styleNews.rel = 'stylesheet';
 	styleNews.href = 'https://chalco-invest.com/public/css/changerStyle.css';
-	document.head.appendChild(styleNews);
+	document.head.appendChild(styleNews); */
 
 	const dollars = document.querySelectorAll('.fa-dollar-sign');
 	const contentWrapperBG = document.querySelector('#content-wrapper');
@@ -25,18 +25,19 @@
 	content.appendChild(newContainer);
 
 	//change iframe string url
-	/* 	function srcGraficChanger(url = '') {
+	function srcGraficChanger(url = '') {
 		const pattern = /\blight\b/g;
 		const replacement = 'dark';
 		const newString = url.replace(pattern, replacement);
 		return newString;
-	} */
+	}
 	//grafic change to dark
 	const grafics = document.querySelectorAll('iframe');
 	grafics.forEach((grafic, idx) => {
 		switch (idx) {
 			case 0:
 				grafic.style = 'border-radius: 4px; width: 100% !important; height: 100%;';
+				srcGraficChanger(grafic.src);
 				break;
 			case 1:
 				grafic.style = 'border-radius: 4px; width: 100% !important; height: 100%;';

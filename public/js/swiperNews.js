@@ -62,10 +62,10 @@ function createCard(item) {
 	return card;
 }
 //add style and scripts
-const styleNews = document.createElement('link');
+/* const styleNews = document.createElement('link');
 styleNews.rel = 'stylesheet';
 styleNews.href = 'public/css/swiperNews.css';
-document.head.appendChild(styleNews);
+document.head.appendChild(styleNews); */
 
 const styleSwiper = document.createElement('link');
 styleSwiper.rel = 'stylesheet';
