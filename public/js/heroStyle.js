@@ -16,4 +16,9 @@
 	priceTitle.style = 'text-align: center';
 	priceTitle.textContent = 'Предложения';
 	priceContainer.insertBefore(priceTitle, priceList);
+
+	const aboutGrafic = document.querySelector(
+		'div#app > .wrapper > section.section__about > div.container > div.sectitle__cont > iframe'
+	);
+	aboutGrafic.classList.add('neon_shadow');
 })();

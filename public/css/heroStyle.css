@@ -75,6 +75,7 @@
 }
 .orice__item {
 	background: radial-gradient(113.88% 81.65% at 50% 100%, #3b4b8d 0%, var(--black-2-bg-color) 100%);
+	box-shadow: var(--box-shadow-big);
 }
 .tocen__coll .token__url {
 	box-shadow: var(--neon-main-color) 0px 5px 15px;
@@ -98,7 +99,9 @@
 	box-shadow: var(--box-shadow-small);
 }
 .partnears__item {
-	box-shadow: var(--box-shadow-small);
+	background-color: #fff;
+	box-shadow: var(--box-shadow-small), var(--black-grafic-color) 0px 30px 60px -20px inset,
+		var(--black-grafic-color) 0px 30px 60px -20px inset;
 }
 .start__bg {
 	background-color: var(--black-1-bg-color) !important;
@@ -113,6 +116,7 @@
 		#3b4b8d 0%,
 		var(--black-2-bg-color) 100%
 	) !important;
+	box-shadow: var(--box-shadow-big);
 }
 
 .faq__list {
@@ -163,4 +167,7 @@
 
 .contact__page {
 	background-color: #fff;
+}
+.neon_shadow {
+	box-shadow: var(--box-shadow-big);
 }

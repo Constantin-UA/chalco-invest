@@ -38,6 +38,14 @@ const newsData = [
 		linkTo:
 			'https://bcs-express.ru/novosti-i-analitika/2023815390-khod-torgov-indeks-mosbirzhi-ne-khochet-otstupat',
 	},
+	{
+		subtitle: 'ЭКОНОМИКА',
+		title: 'The Guardian:',
+		description: 'Китай запустил проект по бурению одной из глубочайших шахт в мире.',
+		imageUrl: '/main/img/news/news6.png',
+		linkTo:
+			'https://news-24.ru/2023/06/08/the-guardian-kitaj-zapustil-proekt-po-bureniju-odnoj-iz-glubochajshih-shaht-v-mire/?utm_source=yxnews&utm_medium=desktop',
+	},
 ];
 function createCard(item) {
 	const card = document.createElement('div');
@@ -141,7 +149,7 @@ window.onload = function () {
 				slidesPerView: 2,
 			},
 			'@1.5': {
-				slidesPerView: 3,
+				slidesPerView: 4,
 			},
 		},
 		observer: true,
