@@ -46,6 +46,13 @@ const newsData = [
 		linkTo:
 			'https://news-24.ru/2023/06/08/the-guardian-kitaj-zapustil-proekt-po-bureniju-odnoj-iz-glubochajshih-shaht-v-mire/?utm_source=yxnews&utm_medium=desktop',
 	},
+	{
+		subtitle: 'ЭКОНОМИКА',
+		title: 'Новак:',
+		description: 'Значительная часть расчетов РФ по энергоресурсам идет в рублях, юанях и рупиях.',
+		imageUrl: '/main/img/news/news7.png',
+		linkTo: 'https://tass.ru/ekonomika/17963559?utm_source=yxnews&utm_medium=desktop',
+	},
 ];
 function createCard(item) {
 	const card = document.createElement('div');
