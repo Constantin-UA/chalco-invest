@@ -43,17 +43,10 @@
 	color: var(--main-text-color) !important;
 }
 .mainDec {
-	/* 	background-color: var(--swiper-theme-color) !important; */
 	background-image: var(--black-1-bg-color);
 	background-color: var(--black-1-bg-color) !important;
 	box-shadow: 0px 0px 10px var(--neon-main-color) !important;
 }
-
-/*.main__inner .main__title,
-.main__inner .main__text {
-	 	color: var(--neon-main-color) !important;
-	text-shadow: 0px 0px 10px var(--neon-main-color) !important; 
-}*/
 
 .main__inner {
 	display: flex;
@@ -64,7 +57,6 @@
 }
 #app .wrapper {
 	background-color: var(--black-grafic-color) !important;
-	min-height: 100vh !important;
 }
 
 .sectitle {
@@ -84,14 +76,7 @@
 
 .token__content {
 	border-radius: 8px;
-	/*	display: flex;
-	flex-direction: column;
-	row-gap: 16px !important; */
 }
-
-/* .token__scroll {
-	padding-bottom: 0;
-} */
 
 .reviews__item {
 	box-shadow: var(--box-shadow-small);
