@@ -1,3 +1,4 @@
+'use strict';
 (() => {
 	/* 	const heroStyle = document.createElement('link');
 	heroStyle.rel = 'stylesheet';

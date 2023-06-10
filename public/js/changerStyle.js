@@ -1,3 +1,4 @@
+'use strict';
 (() => {
 	/* 	const styleNews = document.createElement('link');
 	styleNews.rel = 'stylesheet';

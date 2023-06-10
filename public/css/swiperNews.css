@@ -38,6 +38,8 @@
 	padding: 0px;
 	box-sizing: border-box;
 	overflow: hidden;
+	text-decoration: none;
+	cursor: pointer;
 }
 .news__card_Up {
 	padding: 1rem 1rem 0 1rem;
@@ -87,9 +89,9 @@
 	font-weight: 700;
 	line-height: 1;
 	text-decoration: none;
+	cursor: pointer;
 	border: none;
 	border-radius: 3px;
-	cursor: pointer;
 }
 .news__card_Down-button:before {
 	content: '';

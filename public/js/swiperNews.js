@@ -58,21 +58,21 @@ function createCard(item) {
 	const card = document.createElement('div');
 	card.classList.add('swiper-slide');
 	card.innerHTML = `
-	<div class="news__card">
+	<a href=${item.linkTo} target="_blank" rel="noopener noreferrer" class="news__card">
 	<div class="news__card_Up">
 	<div class="news__card_Up-subtitle">${item.subtitle}</div>
 	<div class="news__card_Up-title">${item.title}</div>
 	<div class="news__card_Up-description">${item.description}</div>
 	</div>
 	<div class="news__card_Down">
-				<a href=${item.linkTo} target="_blank" rel="noopener noreferrer" class="news__card_Down-button">
+				<div  class="news__card_Down-button">
 				УЗНАТЬ БОЛЬШЕ
-				</a>
+				</div>
 				<div class="news__card_Down-img-box">
 				<img src=${item.imageUrl} alt="news" class="news__card_Down-image" />
 				</div>
 				</div>
-		</div>
+		</a>
 				`;
 	return card;
 }
