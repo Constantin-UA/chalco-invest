@@ -173,3 +173,10 @@ label.radio-card .card-content-wrapper {
 	color: var(--color-green) !important;
 	background-color: transparent !important;
 }
+
+#user_depos,
+#user_balance,
+#user_profit,
+#user_withdraws {
+	cursor: pointer;
+}
